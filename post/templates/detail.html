@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load emoji_tags%}
+{% block content %}
+
+</form>
+    <div class="box">
+        <section class="hero is-primary is-small">
+            <div class="hero-body">
+                <p class="title">{{ post.title }}</p>
+                <p class="subtitle">{{post.author}} | {{ post.created_at|date:"Y-m-d H:i" }}</p>
+            </div>
+        </section>
+
+        <div class="content">
+            
+            {{ post.formated_markdown|safe|emoji_replace }}   <!-- |convert_markdown -->
+        </div>
+    </div>
+{% endblock %}
