@@ -1,4 +1,5 @@
-## Here is the sample video
+## The sample video is under the video directory
+
 <video src="video/video.mp4" controls title="Title"></video>
 ***
 
