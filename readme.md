@@ -25,10 +25,8 @@ Once you activated you'll see the `(.envblog)` in the terminal
 
 ---
 
-![Homepage](video/homepage.PNG){width=300 height=300}
+![Homepage](video/homepage.PNG)
 
 ---
 
-![This is the caption][image]
-
-[image]: video/admin.PNG height=150px width=150px
+![This is the caption](video/admin.PNG)
