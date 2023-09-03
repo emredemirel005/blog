@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% load blog_extras %}
+<!-- {% load blog_extras %} -->
 {% load emoji_tags%}
 {% block content %}
     {% for post in posts %}
@@ -13,7 +13,7 @@
             </section>
 
             <div class="content">
-                <p>{{ post.intro|convert_markdown|safe|emoji_replace }}</p>
+                <p>{{ post.formated_markdown_intro|safe|emoji_replace }}</p>
                 <button style="background-color: rgb(87, 218, 174); border: 0; border-radius: 3px;">
                 <a href="{% url 'detail' post.post_id %}">Read more >> </a>
                 </button>

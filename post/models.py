@@ -23,4 +23,7 @@ class Post(models.Model):
     def formated_markdown(self):
         return markdownify(self.body)
     
+    def formated_markdown_intro(self):
+        return markdownify(self.intro)
+    
 

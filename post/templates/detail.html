@@ -2,6 +2,7 @@
 
 {% load static %}
 {% load emoji_tags%}
+{% load blog_extras %}
 {% block content %}
 
 </form>
@@ -15,7 +16,9 @@
 
         <div class="content">
             
-            {{ post.formated_markdown|safe|emoji_replace }}   <!-- |convert_markdown -->
+            {{ post.body|convert_markdown|safe|emoji_replace }}   <!-- |convert_markdown -->
         </div>
     </div>
+
+    
 {% endblock %}
