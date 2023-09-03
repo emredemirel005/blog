@@ -1,4 +1,5 @@
-## Here is the sample video
+## The sample video is under the video directory
+
 <video src="video/video.mp4" controls title="Title"></video>
 ***
 
@@ -25,10 +26,8 @@ Once you activated you'll see the `(.envblog)` in the terminal
 
 ---
 
-![Homepage](video/homepage.PNG){width=300 height=300}
+![Homepage](video/homepage.PNG)
 
 ---
 
-![This is the caption][image]
-
-[image]: video/admin.PNG height=150px width=150px
+![This is the caption](video/admin.PNG)
