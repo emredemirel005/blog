@@ -1,10 +1,8 @@
 ## The sample video is under the video directory
 
+<video width="480" height="320" src="video/video.mp4" controls title="Title"></video>
 
 
-<video width="480" height="320" controls>
-<source src="video/video.mp4" type="video/mp4">
-</video>
 ***
 
 In this Django project
